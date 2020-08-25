@@ -1,0 +1,16 @@
+PODS:
+  - YCPermissionKit (0.1.0)
+
+DEPENDENCIES:
+  - YCPermissionKit (from `../`)
+
+EXTERNAL SOURCES:
+  YCPermissionKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YCPermissionKit: 179135153714eb392e84f08f35bd7587a769edd5
+
+PODFILE CHECKSUM: 55279a996a259e944bdcd120d338af49a2d29cd4
+
+COCOAPODS: 1.9.3

@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YCPermissionKit_Example' do
+  pod 'YCPermissionKit', :path => '../'
+
+  target 'YCPermissionKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

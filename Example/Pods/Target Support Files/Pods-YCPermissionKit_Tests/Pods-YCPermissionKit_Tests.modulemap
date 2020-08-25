@@ -1,0 +1,6 @@
+framework module Pods_YCPermissionKit_Tests {
+  umbrella header "Pods-YCPermissionKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

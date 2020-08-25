@@ -1,0 +1,6 @@
+framework module YCPermissionKit {
+  umbrella header "YCPermissionKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
