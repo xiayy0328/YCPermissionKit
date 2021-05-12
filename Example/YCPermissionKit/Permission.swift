@@ -23,6 +23,7 @@ enum Permission {
         case microphone
         case location(PermissionProvider.LocationType)
         case notification
+        case tracking
         
         var provider: PermissionProvider {
             let mode: PermissionProvider
@@ -74,6 +75,9 @@ enum Permission {
             case .notification:
                 mode = PermissionProvider.notification
                 mode.alias = { "通知" }
+            case .tracking:
+                mode = PermissionProvider.tracking
+                mode.alias = { "跟踪" }
             }
             return mode
         }

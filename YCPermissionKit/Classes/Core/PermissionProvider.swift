@@ -17,6 +17,11 @@ public class PermissionProvider {
         return manager().status == .authorized
     }
     
+    /// 授权状态
+    public var status: PermissionStatus {
+        return manager().status
+    }
+    
     /// 初始化
     init(_ manager: @escaping @autoclosure () -> Permissionable) {
         self.manager = manager

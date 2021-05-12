@@ -9,7 +9,7 @@
 import Foundation
 
 /// 定义授权的状态
-enum PermissionStatus {
+public enum PermissionStatus {
     case authorized
     case denied
     case disabled

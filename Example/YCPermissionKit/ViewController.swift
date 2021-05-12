@@ -100,7 +100,8 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
             
         case 11: // 位置权限
             mode = .location(.whenInUse)
-            
+        case 12: // 追踪权限
+            mode = .tracking
         default:
             mode = .camera
         }
